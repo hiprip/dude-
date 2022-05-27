@@ -1,6 +1,11 @@
 import './style.css'
 import './style.css'
 let man = document.querySelector('#man'); 
+import manUrl from './man.png';
+man.style.backgroundImage = `url(${manUrl})`;
+
+
+
 let frame = 0; 
 let nframes =4; 
 let size = 60;
